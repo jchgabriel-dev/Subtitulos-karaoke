@@ -1,0 +1,104 @@
+QComboBox#combo_style {
+    font-size: 14px;
+    background-color: #9bc0de;
+    border: 1px solid #ababab;
+    border-radius: 4px;
+    padding: 2px 8px 2px 8px;
+}
+
+QComboBox#combo_style::item:selected {
+    background-color: #4f86b3;
+    color: #ffffff;
+}
+
+QComboBox#combo_style QAbstractItemView {
+    border: 1px solid #7a7979;
+    border-radius: 0px;
+}
+
+QComboBox#combo_style::drop-down {
+    background-color: #4479cf;
+    width: 25px;
+}
+
+QComboBox#combo_style::down-arrow {
+    border-image: url(interface/icons/down.png);
+    height: 20px;
+    width: 15px;
+}
+
+QLabel#option_style {
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+QWidget#screen_style {
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid #8f8f8f;
+}
+
+QPushButton#button_style {
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #8f8f8f;
+}
+
+QPushButton#button_style:hover {
+    background-color: #bababa;
+}
+
+QPushButton#button_style:pressed {
+    background-color: #b0b0b0;
+}
+
+QLabel#label_style {
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+QSlider[state="active"]#slider_style::handle {
+    background-color: #fcc203;
+    border: 4px solid #b5b5b5;
+}
+
+QSlider[state="inactive"]#slider_style::handle {
+    background-color: #1d236e;
+    border: 3px solid #828282;
+}
+
+QSlider#slider_style {
+    border: none;
+    background-color: transparent;
+    height: 30px;
+}
+
+QSlider#slider_style::groove {
+    background-color: #3f64a1;
+    height: 8px;
+}
+
+QSlider#slider_style::handle {
+    width: 6px;
+    height: 8px;
+    margin: -7px 0;
+    border-radius: 6px;
+}
+
+QSlider#slider_style::add-page {
+    background-color: #949494;
+}
+
+QWidget#video_style {
+    background-color: #d6d6d6;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+}

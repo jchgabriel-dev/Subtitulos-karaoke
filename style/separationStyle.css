@@ -1,0 +1,27 @@
+QPushButton#button_style {
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #ababab;
+    font-size: 12px;
+}
+
+QPushButton#button_style:hover {
+    background-color: #bababa;
+}
+
+QPushButton#button_style:pressed {
+    background-color: #b0b0b0;
+}
+
+QLabel#label_style {
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+QWidget#progress_style {
+    background-color: #d6d6d6;
+}

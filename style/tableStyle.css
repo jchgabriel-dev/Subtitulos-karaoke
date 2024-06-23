@@ -1,0 +1,126 @@
+QSlider::groove[state="inactive"]#slider_edition  {
+    background: #731818;
+}
+
+QSlider::handle[state="inactive"]#slider_edition  {
+    background: #9e2c26;
+}
+
+QSlider::groove[state="active"]#slider_edition  {
+    background: #18732c;
+}
+
+QSlider::handle[state="active"]#slider_edition   {
+    background: #269e40;
+}
+
+QSlider#slider_edition  {
+    border: None;
+}
+
+QSlider::groove#slider_edition {
+    border: 1px solid #bbb;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::handle#slider_edition  {
+    border: None;
+    width: 20px;
+    margin: -5px 0;
+    border-radius: 10px;
+}
+
+QPushButton#button_save {
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #8f8f8f;
+}
+
+QPushButton:hover#button_save {
+    background-color: #bababa;
+}
+
+QPushButton:pressed#button_save {
+    background-color: #b0b0b0;
+}
+
+QWidget#custom_item {
+    border: None;
+    border-radius: 0px;
+}
+
+QWidget:hover#custom_item  {
+    background-color: #8cb1cf;
+}
+
+QLineEdit#text_time {
+    background-color: #ebe7cc;
+    border: 2px solid #babf8f;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+
+QLineEdit:focus#text_time {
+    border-color: #edce00;
+    background-color: #ffffd6;
+}
+
+QLineEdit#text_line {
+    background-color: #F0F0F0;
+    border: 2px solid #bfbfbf;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 13px;
+    width: 40px;
+}
+
+QLineEdit:focus#text_line {
+    border-color: #0078D7;
+    background-color: #ffffff;
+}
+
+QPushButton#add_button {
+    background-color: #009628;
+    border-radius: 9px;
+    border: 1px solid #009628;
+}
+
+QPushButton:hover#add_button  {
+    background-color: #00691c;
+}
+
+QPushButton:pressed#add_button  {
+    background-color: #004011;
+}
+
+QPushButton#delete_button  {
+    background-color: #cc1616;
+    border-radius: 9px;
+    border: 1px solid #cc1616;
+}
+
+QPushButton:hover#delete_button  {
+    background-color: #9e1010;
+}
+
+QPushButton:pressed#delete_button  {
+    background-color: #730a0a;
+}
+
+QLabel#edition_style {
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+QWidget#table_style {
+    background-color: #d6d6d6;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+}

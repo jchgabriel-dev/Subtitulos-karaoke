@@ -1,0 +1,21 @@
+QWidget#toolbar_style {
+    background-color: #d6d6d6;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+}
+
+QToolButton#button_style {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+QToolButton#button_style:hover {
+    background-color: #bababa;
+}
+
+QToolButton#button_style:pressed {
+    background-color: #b0b0b0;
+}
